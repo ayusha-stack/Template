@@ -5,9 +5,9 @@
     
 }
 .top{
-    background-image: url(background.png);
+    background-image: url(Frame\ 1.png);
     max-width: 1440px;
-    height: 678px;
+    height:679px;
     padding-left: 106px;
 }
 
@@ -23,6 +23,11 @@
 }
 .link{
     color: white;
+    font-family:"Avenir" ;
+    font-size: 16px;
+}
+.link :hover{
+    text-decoration:  5px solid white;
 }
 
 nav{
@@ -52,7 +57,9 @@ nav ul li a{
     text-decoration: none;
     
 }
-
+.just-below{
+    padding-top: 5%;
+}
 
 .head{
     
@@ -72,18 +79,24 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 25px;
-width:35%;
+width:43%;
 color:#FFf;
+padding-top: 5px;
 
 
 }
 .butto{
     display: flex;
-   
-    padding-block: 20px;
+   padding-top:30px;
     width: 35%;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 30px;
+    transition-duration: 0.5s;
+}
+.butto :hover{
+    background-color: white;
+    color:#043CAA
 }
 .btn{
     border: 1px solid white;
@@ -108,6 +121,7 @@ border-bottom-left-radius: 50px;
 .sich{
     display: flex;
     width:35%;
+    padding-top: 2%;
 }
 
 .drug{
@@ -265,7 +279,7 @@ padding-top: 3%;
 }
 
 footer{
-    padding-top:50px;
+    padding-top:8%;
 }
 .foot{
     background-color: #043CAA;
@@ -285,6 +299,8 @@ font-size: 24px;
 line-height: 33px;
 color: #FFFFFF;
 }
+
+
 
 .foot-text{
 font-family: 'Avenir';
@@ -378,4 +394,9 @@ color: #FFFFFF;
 text-align: center;
 padding-bottom: 10px;
 padding-top: 5%;
+}
+
+.pics-text{
+    display:flex;
+    flex-direction: row;
 }
